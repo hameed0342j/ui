@@ -11,6 +11,7 @@ import { ConsumptionTable } from '@/components/tables/consumption-table';
 import { VarianceReport } from '@/components/tables/variance-report';
 import { OrderSummary } from '@/components/orders/order-summary';
 import { Settings } from '@/components/settings/settings';
+import { IndustryReport } from '@/components/report/industry-report';
 
 const PAGES = {
     dashboard: Dashboard,
@@ -18,6 +19,7 @@ const PAGES = {
     consumption: ConsumptionTable,
     variance: VarianceReport,
     orders: OrderSummary,
+    report: IndustryReport,
     settings: Settings,
 };
 

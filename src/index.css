@@ -4,6 +4,7 @@
 @source "../";
 @source not "../styleguide-gh-pages";
 @source not "../agent-skills-main";
+@source not "../ilovepdf_pages-to-jpg (3)";
 
 @custom-variant dark (&:is(.dark *));
 

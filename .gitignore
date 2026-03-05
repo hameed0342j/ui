@@ -1,2 +1,4 @@
 node_modules
 dist
+*.pdf
+ilovepdf_pages-to-jpg*/
