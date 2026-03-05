@@ -35,7 +35,7 @@ export function App() {
 
                 {/* Main Content */}
                 <main className="ml-60 min-h-screen">
-                    <div className="max-w-5xl mx-auto px-6 py-6">
+                    <div className={`mx-auto px-6 py-6 ${activePage === 'report' ? 'max-w-full' : 'max-w-5xl'}`}>
                         {/* Page Header Breadcrumb */}
                         <div className="mb-6 pb-4 border-b border-border">
                             <p className="text-xs text-muted-foreground uppercase tracking-widest">
